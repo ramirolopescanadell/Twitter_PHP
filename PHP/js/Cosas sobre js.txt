@@ -1,0 +1,25 @@
+var nombre = "Ramiro" (par asignar valores a las variables)
+
+prompt("text", value) (para ingresar informacion pro teclado);
+
+document.write(variable) para imprimir en pantalla;
+
+se concatena con el signo +
+
+var arreglo = [dato1, dato2, dato3 ];
+document.write(arreglo[0]) (para imprimir el dato1);
+los arreglos pueden guardar datos de distintos tipos
+
+arreglo.length() para saber el tamaño del arreglo
+arreglo[arreglo.length()]=datoNuevo (para agregar un dato al final del arreglo) o arreglo.push(dato1,dato2) para agregar dato1 y dato2 al final del arreglo
+arreglo.pop() para eliminar el ultimo dato del arreglo.
+arreglo1.concat(arreglo2) para concatenar
+
+el and se hace && y el or se hace ||
+
+for (i=0; i<10; i++){
+}
+
+atributo onclick (llama a una funcion cuando se hace click).
+
+para guardar datos del formulario en una variable tengo que hacer nombre= document.getElementById("nombre").value

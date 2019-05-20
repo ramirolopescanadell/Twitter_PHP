@@ -1,0 +1,131 @@
+h1{
+	font-weight: normal;
+	text-align:center;
+	background:url(./imagenes/istockphoto-889136412-612x612.jpg);
+	font-size:50px;
+	letter-spacing:5px;
+	border-radius: 10px;
+}
+.titulo{
+	position:relative;
+	top:10px;
+	left:200px;
+	right:200px;
+	width:1000px;
+}
+body{
+	background:url(./imagenes/recorta3.png);
+	margin:0;
+}
+fieldset{
+	
+	border-width:0px;
+	border-radius: 15px;
+	background: url(./imagenes/istockphoto-889136412-612x612.jpg);
+	
+
+}
+.caja {
+  color:white;
+  position:relative;
+  top:5%;  
+  margin:auto;
+  width:50%;
+  height:80%;	
+}
+.caja .foto {
+	margin:0;
+	padding:0;
+	top:5%;
+}
+.caja2 {
+  margin:auto;
+  width:50%;
+  padding:0; 
+}
+.caja2 strong {
+	margin-left: 240px;
+    font-size: 27px;
+    text-decoration-line: underline;
+}
+.botones {
+	display:inline-block;
+	width:50%;
+	margin-left:25%;
+}
+.caja2 .foto {
+	margin-left:28%;
+}
+
+.editarPerfil {
+	border:1px solid #ccc;
+	margin:20px;
+	padding:20px;
+	width:100%;
+	height:auto;
+	margin-bottom:15%;
+	margin-top:10%;
+}
+fieldset a {
+	color:black;
+}
+.editarPerfil label {
+	font-size:18px;
+	display:block;
+	width:100%;
+	margin-bottom:10px;
+	margin-left:23%;
+}
+.editarPerfil input {
+	margin-bottom:20px;
+	padding:5px;
+	width:50%;
+	margin-left:23%;
+}
+.separacion input {
+	margin-bottom:10px;
+}
+ .registrarse {
+	margin-left:44%;
+	border-radius:16%;
+	width:90px;
+	height:50px;
+	box-shadow:5px 5px 15px #000;
+}
+.registrarse:hover {
+	cursor:pointer;
+}	
+.registrarse:active {
+	box-shadow:none;
+}
+
+.foto img {
+	width:250px;
+	height:250px;
+	border-radius:50%;
+	float:left;	
+}
+footer {
+    position: fixed;
+	padding-top:15px;
+    height: 40px;
+	width:100%;
+    clear: both;
+    background: url(./imagenes/istockphoto-889136412-612x612.jpg);
+    text-align: center;
+	bottom:0;
+}
+.caja .cartel {
+	text-align:center;
+}
+	
+.caja .cartel a {
+	color:orange;
+}
+.caja strong {
+    margin-left:251px;
+	color:black;
+	font-family:sans-serif;
+	font-size: 30px;
+    text-decoration-line: underline;
+}

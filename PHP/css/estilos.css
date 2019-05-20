@@ -1,0 +1,62 @@
+h1{
+	font-weight: normal;
+	text-align:center;
+	background:url(./imagenes/istockphoto-889136412-612x612.jpg);
+	font-size:50px;
+	letter-spacing:5px;
+	border-radius: 10px;
+}
+.titulo{
+	position:relative;
+	top:10px;
+	left:200px;
+	right:200px;
+	width:1000px;
+}
+body{
+	background:url(./imagenes/recorta3.png);
+	margin:0;
+}
+fieldset{
+	background: url(./imagenes/istockphoto-889136412-612x612.jpg);
+	border: 5px solid black;
+	border-radius: 15px;
+}
+.formulario{
+  position:relative;
+  top:50px;  
+  margin:auto;
+  text-align:center;
+  width:250px;
+}
+ input{
+	border:2px solid black ;
+	border-radius:4px;
+	margin-top:20px;
+}
+p{
+	color:white;
+}
+.Foto{
+	background:white;
+}
+footer {
+    position: fixed;
+	padding-top:15px;
+    height: 40px;
+	width:100%;
+    clear: both;
+    background: url(./imagenes/istockphoto-889136412-612x612.jpg);
+    text-align: center;
+	bottom:0;
+}
+a{
+	color:orange;
+}
+h2{
+	color:white;
+	font-family:sans-serif;
+}
+.datosInvalidos p{
+	color:orange;
+}
